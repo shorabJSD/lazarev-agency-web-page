@@ -1,0 +1,100 @@
+
+@media screen and (max-width: 1920px) {
+    #main {
+    width: 100%;
+    height: 100%;
+    }
+}
+@media screen and (min-width: 1080px) {
+    #main {
+    width: 100%;
+    height: 100%;
+    }
+}
+@media screen and (max-width: 1080px) {
+    #nav .nav_part .nav_elem h4{
+    font-size: 1vw;
+     }
+}
+@media screen and (max-width:1000px) {
+    #nav .nav_part .nav_elem h4{
+    display: none;
+    }
+    #nav .menu_icon{
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    justify-content:center;
+    flex-direction: column;
+    }
+   #main{
+    width: 100%;
+   }
+   #main #page1 h1{
+    font-size: 7vw; 
+   }
+   #main #page1 h1 i{
+    padding: 20px;
+    top: -20px;
+   }
+   #main #page1 h4{
+    font-size: 13px;
+   }
+   #main #page1 .feature_item h5{
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 2px 3px;
+    font-size: 12px;
+   }
+    
+}
+
+
+@media screen and (max-width:900px){
+    #main #page1 h1 i{
+        padding: 15px;
+         top: -13px;
+       }
+       #main #page1 h1{
+        font-size: 6vw; 
+       }
+       #main #our_clients{
+         bottom: -15px;
+         width: 40%;
+         padding: 1vw;
+     }
+
+}
+
+@media screen and (max-width:800px){
+    #main #page1 h1{
+        font-size: 1vw;
+       }
+    #main #page1 h1 i{
+        padding: 8px;
+         top: -8px;
+         font-size: 10px;
+       }
+       #main #page1 h1{
+        font-size: 4vw; 
+       }
+       #main #our_clients{
+         bottom: -15px;
+         width: 100%;
+         padding: 1vw;
+     }
+     #main #page1 h4{
+        font-size: 12px;
+       }
+       #main #page1 .feature_item h5{
+        font-size: 10px;
+       }
+}
+
+
+
